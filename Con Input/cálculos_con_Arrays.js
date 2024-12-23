@@ -3,7 +3,7 @@ const rl = readline.createInterface({input: process.stdin, output: process.stdou
 
 /*
 OBJETIVO: Crear un menú donde presenten las opciones de cálculos con arrays y que el usuario pueda elegir una.
-Teniendo en cuenta que próximamente se añadirán funciones para manejo de errores y validación de inputs.
+TODO: Teniendo en cuenta que próximamente se añadirán funciones para manejo de errores y validación de inputs.
 */
 const menu = () => {
     console.log(`====================== CÁLCULOS CON ARRAYS ======================
