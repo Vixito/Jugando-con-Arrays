@@ -37,3 +37,7 @@ Voy a explicar la variable "resultado", porque es clave para cumplir con el obje
                 - Para `num = 3` → [3, 3, 3] → length = 3 → 3 % 2 !== 0 (Cumple)
             Paso 2: Retorna el primer `num` que cumple la condición (en este caso, 3).
 */
+
+// Aunque también hallé este código, increíble las buenas prácticas:
+
+const findOdd2 = (xs) => xs.reduce((a, b) => a ^ b); // Utiliza el operador XOR para encontrar el número que aparece un número impar de veces
