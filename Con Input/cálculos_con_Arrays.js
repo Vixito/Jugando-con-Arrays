@@ -81,6 +81,7 @@ const menu = () => {
         };
     });
 };
+console.clear();
 menu();
 
 const Numero_Grande = () => {
@@ -91,7 +92,6 @@ const Numero_Grande = () => {
         rl.close();
     });
 };
-Numero_Grande();
 
 const Numero_Pequeño = () => {
     rl.question("Escribe tu array de números separados por comas: ", (input) => {
@@ -101,7 +101,6 @@ const Numero_Pequeño = () => {
         rl.close();
     });
 };
-Numero_Pequeño();
 
 const sumOfElements = () => {
     rl.question("Escribe tu array de números separados por comas: ", (input) => {
@@ -111,7 +110,6 @@ const sumOfElements = () => {
         rl.close();
     });
 };
-sumOfElements();
 
 const multiplicationOfElements = () => {
     rl.question("Escribe tu array de números separados por comas: ", (input) => {
@@ -121,7 +119,6 @@ const multiplicationOfElements = () => {
         rl.close();
     });
 };
-multiplicationOfElements();
 
 const findAverage = () => {
     rl.question("Escribe tu array de números separados por comas: ", (input) => {
@@ -131,7 +128,6 @@ const findAverage = () => {
         rl.close();
     });
 };
-findAverage();
 
 /*
 Porcentajes:
@@ -154,7 +150,6 @@ const de_una_Cantidad = () => {
         });
     });
 };
-de_una_Cantidad();
 
 const add_porcentaje = () => {
     rl.question("Escribe la cantidad: ", (cantidad) => {
@@ -165,7 +160,6 @@ const add_porcentaje = () => {
         });
     });
 };
-add_porcentaje();
 
 const restar_porcentaje = () => {
     rl.question("Escribe la cantidad: ", (cantidad) => {
@@ -176,7 +170,6 @@ const restar_porcentaje = () => {
         });
     });
 };
-restar_porcentaje();
 
 const cambio_porcentual = () => {
     rl.question("Escribe el valor viejo: ", (viejo) => {
@@ -187,7 +180,6 @@ const cambio_porcentual = () => {
         });
     });
 };
-cambio_porcentual();
 
 const convertir_a_decimal = () => {
     rl.question("Escribe el porcentaje: ", porcentaje => {
@@ -196,7 +188,6 @@ const convertir_a_decimal = () => {
         rl.close();
     });
 };
-convertir_a_decimal();
 
 const fracciones_a_porcentajes = () => {
     rl.question("Escribe el numerador: ", (numerador) => {
@@ -207,7 +198,6 @@ const fracciones_a_porcentajes = () => {
         });
     });
 };
-fracciones_a_porcentajes();
 
 const total_de_un_numero = () => {
     rl.question("Escribe el porcentaje: ", (porcentaje) => {
@@ -228,4 +218,3 @@ const numero_total_si_se_sabe_un_porcentaje = () => {
         });
     });
 };
-numero_total_si_se_sabe_un_porcentaje();
